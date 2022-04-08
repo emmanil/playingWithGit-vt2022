@@ -13,7 +13,7 @@ public class Main {
                 e("and much coffee!");
                 e("soooo much coffee!");
 
-                e("\n Today 6/4 Emma open git Bash and then she wrote\n" +
+                e("\nToday 6/4 Emma open git Bash and then she wrote\n" +
                         "git branch -a //So that she could see all the branches. ");
                 e("She then wrote \ngit status //to see what branch she was in. ");
                 e("She was in the correct branch so she wrote:\n" +
