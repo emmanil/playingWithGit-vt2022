@@ -7,6 +7,7 @@ public class Ford extends Car implements DetailsAboutCar {
                 hasTheThemesong);
     }
 
+
     public void numberOfGears() {
         System.out.println("Has 4 gears.");
     }
