@@ -25,6 +25,9 @@ public class Main {
                 "$ git push --set-upstream origin addingNewClass //to create upstream to her new branch.");
         p("git stash // stash in local branch\ngit stash clear // clear the stash in the local branch\ngit stash list // get the list of what is in the stash in the local branch");
 
+        p("git pull origin main //she tried to pull main into her local branch to resolve possible issues");
+        p("She got the response \"error: Pulling is not possible because you have unmerged files.\" So then she resolved the conflicts in her IDEA. Then she wrote \ngit add .\ngit commit -m 'mering main into addingNewClass' //and then \ngit push //to push it up to her local branch. ");
+
     }
 
     public static void p(String words) {
