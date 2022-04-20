@@ -33,10 +33,10 @@ public class Car {
 
     public void setThemesong(String hasTheThemesong) {
         this.hasTheThemesong = hasTheThemesong;
-
     }
 
-     public String allAboutCar(){
-        return (getClass().getName() + " has slogan "+ slogan);
+    public String allAboutCar() {
+        return (getClass().getName() + " has slogan " + slogan);
+
     }
 }
