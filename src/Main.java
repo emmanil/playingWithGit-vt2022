@@ -28,6 +28,11 @@ public class Main {
         p("git pull origin main //she tried to pull main into her local branch to resolve possible issues");
         p("She got the response \"error: Pulling is not possible because you have unmerged files.\" So then she resolved the conflicts in her IDEA. Then she wrote \ngit add .\ngit commit -m 'mering main into addingNewClass' //and then \ngit push //to push it up to her local branch. ");
 
+
+        p("Another day she wanted to fetch stuff from main but not pull all the changes, she wrote \ngit fetch origin //to download new changes, but leave her HEAD branch and working copy files untouched.");
+
+
+        
     }
 
     public static void p(String words) {
