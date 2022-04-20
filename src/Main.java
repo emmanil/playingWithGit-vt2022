@@ -19,7 +19,11 @@ public class Main {
             Ford aFordCarObject = new Ford(4, "is from the USA", "whiskey lullaby, by brad paisley");
             System.out.println(aFordCarObject.theCarsSlogan());
             System.out.println(aFordCarObject.theCarsThemesong());
-          
+
+            System.out.println("Emma added a new branch for her new class 20/4. Used the command \n" +
+                    "git checkout -b addingNewClass //to create said branch and \n" +
+                    "$ git push --set-upstream origin addingNewClass //to create upstream to her new branch.");
+
             }
 
             public static void a(String words) {
