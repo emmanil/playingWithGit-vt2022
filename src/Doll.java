@@ -2,9 +2,17 @@
 public class Doll {
 
     private String name;
+    private final Haircolor haircolor;
 
-    public Doll(String name) {
+    public enum Haircolor{
+        BLONDE,
+        BROWN,
+        BLACK
+    }
+
+    public Doll(String name, Haircolor haircolor) {
         this.name = name;
+        this.haircolor = haircolor;
     }
 
     public String getName() {
